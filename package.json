@@ -6,7 +6,8 @@
   "scripts": {
     "build": "webpack",
     "watch": "webpack --watch",
-    "build-linux": "node_modules/webpack/bin/webpack.js --config webpack.config.js"
+    "build-linux": "node_modules/webpack/bin/webpack.js --config webpack.config.js",
+    "watch-linux": "node_modules/webpack/bin/webpack.js --config webpack.config.js --watch"
   },
   "dependencies": {
     "autoprefixer-loader": "^3.2.0",
@@ -24,6 +25,10 @@
     "purifycss-webpack-plugin": "^2.0.3",
     "react": "~16.0.0",
     "react-dom": "~16.0.0",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "redux-devtools-extension": "^2.13.5",
+    "redux-logger": "^3.0.6",
     "resolve-url-loader": "^2.1.1",
     "sass-loader": "^6.0.6",
     "style-loader": "^0.19.0",
@@ -40,5 +45,11 @@
   "bugs": {
     "url": "https://github.com/Karpolena/react/issues"
   },
-  "homepage": "https://github.com/Karpolena/react#readme"
+  "homepage": "https://github.com/Karpolena/react#readme",
+  "devDependencies": {
+    "babel-eslint": "^8.2.6",
+    "eslint": "^5.3.0",
+    "eslint-loader": "^2.1.0",
+    "eslint-plugin-react": "^7.10.0"
+  }
 }

@@ -1,0 +1,4 @@
+export const FOLDERS = {
+    OPEN_TEMPALTE: "OPEN_TEMPALTE",
+    SAVE_FOLDER: "SAVE_FOLDER"
+};

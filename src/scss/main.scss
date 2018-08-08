@@ -85,6 +85,10 @@ svg {
     width: 80px;
     justify-content: space-between;
 }
+
+.main-container {
+    display: flex;
+}
 .aside {
     width: 248px;
     padding: 10px;
@@ -107,8 +111,44 @@ svg {
 }
 
 .content {
+    display: table;
     padding: 10px;
+    width: calc(100% - 248px);
 }
 
+.folder {
+    float: left;
+    width: 240px;
+    height: 150px;
+    border: 1px solid #d1d1d1;
 
+    &__header {
+        padding: 20px;
+        box-sizing: border-box;
+        font-size: 16px;
+
+        & input {
+            width: 100%;
+            border: 0;
+            outline: none;
+            font-size: 16px;
+            height: 20px;
+            line-height: 20px;
+            border-bottom: 1px solid #d1d1d1;
+       
+        }
+    }
+
+    &__controlls {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        & button {
+            background: lightblue;
+            padding: 10px;
+            color: #ffffff;
+            border-radius: 4px;
+        }
+    }
+}
 
