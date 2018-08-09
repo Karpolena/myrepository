@@ -1,6 +1,10 @@
 import React, {Component} from "react";
 import PropTypes from "prop-types";
 
+// туту все примитивно
+// рисуем инпут и кнопку сохранить понажатию на которую 
+// мы вызываем родительский метод и передаем название (поле title)
+
 class FolderTemplate extends Component {
 
     state = {

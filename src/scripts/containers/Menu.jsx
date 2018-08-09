@@ -8,6 +8,7 @@ const MainMenu = ({dispatch}) => {
     return (
         <aside className="aside">
             <button onClick={() => {
+                // тут мы бросаем собитые для открытия шаблона
                 dispatch(FoldersActions.openTemplate());
             }} className="aside-btn">Создать</button>
             <ul className="aside__list">                    
